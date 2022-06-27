@@ -10,7 +10,7 @@ if (numeroUtente % 2 == 0)
 }
 else
 {
-    Console.WriteLine("scrivi un numero");
+    Console.WriteLine(numeroUtente+1);
 };
 
 // Snack 4) calcola somma e media.
