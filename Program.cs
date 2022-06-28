@@ -1,5 +1,21 @@
 ﻿// See https://aka.ms/new-console-template for more information
+//Snack12)
+//Scrivere una funzione per verificare se un numero è pari o dispari.Quindi chiedere un numero all'utente e comunicargli se è pari o dispari.
 
+void EvenOrOdd (int num)
+{
+    if (num % 2 == 0)
+    {
+        Console.WriteLine("even");
+    } else
+    {
+        Console.WriteLine("odd");
+    }
+}
+
+Console.Write("insert a number: ");
+
+EvenOrOdd(int.Parse(Console.ReadLine()));
 
 
 // Snack11)
@@ -7,34 +23,38 @@
 // Verificare tramite una funzione che le due parole abbiano la stessa lunghezza.
 // Se hanno la stessa lunghezza, stamparle entrambe,altrimenti stampare la più lunga delle due
 
-string userWord1;
-string userWord2;
+//string userWord1;
+//string userWord2;
 
-Console.Write("Write first word:");
-userWord1 = Console.ReadLine();
+//userWord1 = AskForWord("Write first word");
+//userWord2 = AskForWord("Write second word");
 
-Console.Write("Write second word:");
-userWord2 = Console.ReadLine();
+//string AskForWord (string message)
+//{
+//    Console.Write(message + ":");
+//    string input = Console.ReadLine();
+//    return input;
+//};
 
-void SameLangth (string ward1, string ward2)
-{
-    if (ward1.Length == ward2.Length)
-    {
-        Console.WriteLine("{0} = {1}", ward1,ward2);
-    }
-    else
-    {
-        if (ward1.Length > ward2.Length)
-        {
-            Console.WriteLine (ward1);
-        } else
-        {
-            Console.WriteLine (ward2);
-        }
-    }
-}
+//void SameLength (string ward1, string ward2)
+//{
+//    if (ward1.Length == ward2.Length)
+//    {
+//        Console.WriteLine("{0} = {1}", ward1,ward2);
+//    }
+//    else
+//    {
+//        if (ward1.Length > ward2.Length)
+//        {
+//            Console.WriteLine (ward1);
+//        } else
+//        {
+//            Console.WriteLine (ward2);
+//        }
+//    }
+//}
 
-SameLangth(userWord1, userWord2);
+//SameLength(userWord1, userWord2);
 
 
 // Snack 10)
